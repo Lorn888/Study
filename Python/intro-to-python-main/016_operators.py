@@ -31,7 +31,7 @@ def add_one(num):
 
 # @TASK: To be a great programmer you will have to become a
 # great researcher. Let's get started:
-#
+#	
 # 1. Search the web for "Python operators", to
 # 2. Find and fill out the following list of operators.
 #
@@ -54,8 +54,8 @@ print(f"2 * 3 = {multiplied} (should be 6)")
 
 # == Subtraction ==
 
-# subtracted = 2 ? 3
-# print(f"2 ? 3 = {subtracted} (should be -1)")
+subtracted = 2 - 3
+print(f"2 - 3 = {subtracted} (should be -1)")
 
 # == Division ==
 
