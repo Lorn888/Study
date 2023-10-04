@@ -34,7 +34,7 @@ def report_long_words(words):
   no_hyphon = words_without_hyphen(long_words)
   shortened_words = shortened_longer_than_15(no_hyphon)
 
-  # return shortened_words
+  return shortened_words
 
 def longer_than_10(words):
   long =[]
