@@ -37,13 +37,18 @@ def report_long_words(words):
   return shortened_words
 
 def longer_than_10(words):
-  long =[]
+  long_words = []
   for word in words:
     if len(word) > 10:
-      long.append(word)
-  return long
+      long_words.append(word)
+  return long_words
 
-def no_hyphon()
+def words_without_hyphen(words):
+  no_hyphon = []
+  for word in words:
+    if "-" in word:
+      no_hyphon.append(word)
+  return no_hyphon
   
 
 check_that_these_are_equal(
