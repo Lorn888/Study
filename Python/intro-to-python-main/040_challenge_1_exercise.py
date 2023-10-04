@@ -34,14 +34,16 @@ def report_long_words(words):
   no_hyphon = words_without_hyphen(long_words)
   shortened_words = shortened_longer_than_15(no_hyphon)
 
+  # return shortened_words
 
-def get_hyphen_out(words):
-  long_words = []
-
+def longer_than_10(words):
+  long =[]
   for word in words:
-    if "-" not in word:
-      long_words.append(word)
-  return long_words
+    if len(word) > 10:
+      long.append(word)
+  return long
+
+def no_hyphon()
   
 
 check_that_these_are_equal(
