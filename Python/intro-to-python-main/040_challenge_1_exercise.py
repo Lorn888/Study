@@ -30,6 +30,12 @@ print("")
 print("Function: report_long_words")
 
 def report_long_words(words):
+  long_words = longer_than_10(words)
+  no_hyphon = words_without_hyphen(long_words)
+  shortened_words = shortened_longer_than_15(no_hyphon)
+
+
+def get_hyphen_out(words):
   long_words = []
 
   for word in words:
