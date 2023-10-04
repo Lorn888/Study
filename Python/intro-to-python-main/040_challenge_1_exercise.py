@@ -33,8 +33,9 @@ def report_long_words(words):
   long_words = longer_than_10(words)
   no_hyphon = words_without_hyphen(long_words)
   shortened_words = shortened_longer_than_15(no_hyphon)
+  sentence = create_sentance(shortened_words)
 
-  return shortened_words
+  return sentence
 
 def longer_than_10(words):
   long_words = []
@@ -43,12 +44,22 @@ def longer_than_10(words):
       long_words.append(word)
   return long_words
 
-def words_without_hyphen(words):
+def words_without_hyphen(long_words):
   no_hyphon = []
-  for word in words:
-    if "-" in word:
+  for word in long_words:
+    if "-" not in word:
       no_hyphon.append(word)
   return no_hyphon
+
+def shortened_longer_than_15(no_hyphon):
+  shortened_words = []
+  for word in no_hyphon:
+    if len(word) > 15:
+      shortened_words.append(f"{word[:15]}...")
+    else:
+      shortened_words.append(word)
+  return shortened_words
+
   
 
 check_that_these_are_equal(
