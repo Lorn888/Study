@@ -60,7 +60,9 @@ def shortened_longer_than_15(no_hyphon):
       shortened_words.append(word)
   return shortened_words
 
-  
+def create_sentance(shortened_words):
+  lol = ", ".join(str(x) for x in shortened_words)
+  return (f"These words are quite long: {lol}")
 
 check_that_these_are_equal(
   report_long_words([
