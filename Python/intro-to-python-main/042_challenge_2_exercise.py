@@ -57,9 +57,9 @@ def print_board(board):
   return grid
 
 def make_move(board, row, column, player):
-  board[row][column] = player
+  if board[row][column] == ".":
+    board[row][column] = player
   return board
-
 
 # This function will extract three cells from the board
 def get_cells(board, coord_1, coord_2, coord_3):
