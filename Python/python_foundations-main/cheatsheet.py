@@ -17,3 +17,14 @@ def seconds_in_a_week(weeks):
     return 60*60*24*7*weeks
 
 print(seconds_in_a_week(4))
+
+def superify(name):
+    return f"super{name}"
+
+dog_result = superify("dog")
+print(f"Look, it's {dog_result}!")
+# Should print "Look, it's superdog!"
+
+cat_result = superify(superify(superify("cat")))
+print(f"Look, it's {cat_result}!")
+# Should print "Look, it's supersupersupercat!"
