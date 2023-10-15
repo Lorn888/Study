@@ -25,8 +25,7 @@
 #   Returns: "HELLO WORLD"
 def block_caps_a_string(string):
     # your code goes here (delete the pass below)
-    pass
-
+    return string.upper()
 
 
 # Purpose: return the string lowercase
@@ -35,7 +34,7 @@ def block_caps_a_string(string):
 #   Returns: "hello world"
 def lower_case_a_string(string):
     # your code goes here (delete the pass below)
-    pass
+    return string.lower()
 
 
 # Purpose: return the length of the string
@@ -44,7 +43,7 @@ def lower_case_a_string(string):
 #   Returns: 5
 def length_of_a_string(string):
     # your code goes here (delete the pass below)
-    pass
+    return len(string)
 
 
 # Purpose: return the string reversed
@@ -53,7 +52,7 @@ def length_of_a_string(string):
 #   Returns: "olleh"
 def reverse_a_string(string):
     # your code goes here (delete the pass below)
-    pass
+    return string[::-1]
 
 
 # Purpose: return the string with uppercase swapped to lowercase and vice versa
@@ -62,7 +61,13 @@ def reverse_a_string(string):
 #   Returns: "hELLO wORLD"
 def swap_the_case_of_a_string(string):
     # your code goes here (delete the pass below)
-    pass
+    new = ""
+    for x in string:
+        if x == x.lower():
+            new += x.upper()
+        else:
+            new += x.lower()
+    return new
 
 
 # Purpose: checks if the number given is odd
@@ -73,7 +78,10 @@ def swap_the_case_of_a_string(string):
 #   Returns: False
 def is_integer_odd(integer):
     # your code goes here (delete the pass below)
-    pass
+    if integer % 2 == 0:
+        return False
+    else:
+        return True
 
 
 # Purpose: checks if the number given is even
