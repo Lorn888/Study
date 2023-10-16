@@ -122,7 +122,7 @@ def integer_to_string(integer):
 #   Returns: 3
 def return_one_lower(integer):
     # your code goes here (delete the pass below)
-    pass
+    return integer - 1
 
 
 # Purpose: returns the integer one higher than the one given
