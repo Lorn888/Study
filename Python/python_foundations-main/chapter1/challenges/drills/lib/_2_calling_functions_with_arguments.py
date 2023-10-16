@@ -16,7 +16,11 @@
 #   Returns: False
 def starts_with_the_letter_a(string):
     # your code goes here (delete the pass below)
-    pass
+    for letters in string:
+        if letters[0].lower() == "a":
+            return True
+        else:
+            return False
 
 
 # Purpose: checks if a string ends with the letter a
