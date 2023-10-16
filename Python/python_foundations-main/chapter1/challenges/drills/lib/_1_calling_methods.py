@@ -140,7 +140,8 @@ def return_one_higher(integer):
 #   Returns: 5
 def round_up(float):
     # your code goes here (delete the pass below)
-    pass
+    import math
+    return math.ceil(float)
 
 
 # Purpose: rounds a float down to the nearest integer
