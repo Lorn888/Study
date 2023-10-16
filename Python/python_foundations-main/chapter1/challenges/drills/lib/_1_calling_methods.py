@@ -104,7 +104,7 @@ def is_integer_even(integer):
 #   Returns: 1.0
 def integer_to_float(integer):
     # your code goes here (delete the pass below)
-    pass
+    return float(integer)
 
 
 # Purpose: converts an integer to a string
