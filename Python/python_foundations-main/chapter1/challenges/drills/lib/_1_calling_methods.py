@@ -113,7 +113,7 @@ def integer_to_float(integer):
 #   Returns: "1"
 def integer_to_string(integer):
     # your code goes here (delete the pass below)
-    pass
+    return str(integer)
 
 
 # Purpose: returns the integer one lower than the one given
