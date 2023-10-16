@@ -150,7 +150,8 @@ def round_up(float):
 #   Returns: 4
 def round_down(float):
     # your code goes here (delete the pass below)
-    pass
+    import math
+    return math.floor(float)
 
 
 # Purpose: converts a float to a string
