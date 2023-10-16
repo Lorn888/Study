@@ -160,7 +160,7 @@ def round_down(float):
 #   Returns: "1.0"
 def float_to_string(float):
     # your code goes here (delete the pass below)
-    pass
+    return str(float)
 
 
 # Purpose: converts a float to an integer
