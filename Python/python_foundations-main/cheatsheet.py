@@ -50,10 +50,14 @@
 
 # is_integer_odd(1)
 
-def starts_with_the_letter_a(string):
+# def starts_with_the_letter_a(string):
+#     # your code goes here (delete the pass below)
+#     for letters in string:
+#         if letters[0].lower() == "a":
+#             return True
+#         else:
+#             return False
+
+def ends_with_the_letter_a(string):
     # your code goes here (delete the pass below)
-    for letters in string:
-        if letters[0].lower() == "a":
-            return True
-        else:
-            return False
+        return string[-1]
