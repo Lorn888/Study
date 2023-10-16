@@ -92,7 +92,10 @@ def is_integer_odd(integer):
 #   Returns: True
 def is_integer_even(integer):
     # your code goes here (delete the pass below)
-    pass
+    if integer % 2 == 0:
+        return True
+    else:
+        return False
 
 
 # Purpose: converts an integer to a float
