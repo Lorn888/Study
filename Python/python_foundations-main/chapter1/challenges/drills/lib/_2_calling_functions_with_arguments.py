@@ -91,7 +91,8 @@ def remove_x(string):
 # Note: you can assume the string will always have an even number of characters
 def first_half(string):
     # your code goes here (delete the pass below)
-    pass
+    x = int(len(string)/2)
+    return string[0:x]
 
 
 # Purpose: returns the second half of a string
