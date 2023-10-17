@@ -78,7 +78,10 @@ def substitute_hello_with_goodbye(string):
 #   Returns: "OO"
 def remove_x(string):
     # your code goes here (delete the pass below)
-    pass
+    x = string.replace("x","")
+    y = x.replace("X","")
+    return y
+
 
 
 # Purpose: returns the first half of a string
