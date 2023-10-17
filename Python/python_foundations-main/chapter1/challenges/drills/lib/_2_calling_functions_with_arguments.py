@@ -102,7 +102,8 @@ def first_half(string):
 # Note: you can assume the string will always have an even number of characters
 def second_half(string):
     # your code goes here (delete the pass below)
-    pass
+    x = int(len(string)/2)
+    return string[-x:]
 
 
 # Congrats, you're done with this file. Move on to the next one.
