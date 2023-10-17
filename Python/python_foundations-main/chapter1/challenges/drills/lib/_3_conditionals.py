@@ -17,7 +17,14 @@
 #   Returns: 8
 def fizz_buzz(number):
     # your code goes here (delete the pass below)
-    pass
+    if number % 15 == 0:
+        return "fizzbuzz"
+    elif number % 3 == 0:
+        return "fizz"
+    elif number % 5 == 0:
+        return "buzz"
+    else:
+        return number
 
 
 # Purpose: responds to the user's greeting
