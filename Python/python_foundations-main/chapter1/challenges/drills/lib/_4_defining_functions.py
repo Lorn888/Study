@@ -150,7 +150,8 @@ def multiply_number_strings(num1,num2):
 #   Call:    both_odd(6, 10)
 #   Returns: False
 
-
+def both_odd(num1, num2):
+    return (num1 % 2 !=0) and (num2 % 2!= 0)
 
 # Method name: both_even
 # Purpose: returns true if both numbers are even
