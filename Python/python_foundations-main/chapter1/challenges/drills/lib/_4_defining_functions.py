@@ -114,7 +114,8 @@ def add(num1,num2):
 #   Call:    multiply(5, 10)
 #   Returns: 50
 
-
+def multiply(num1,num2):
+    return num1 * num2
 
 # Method name: add_number_strings
 # Purpose: adds two numbers given as strings
