@@ -103,6 +103,8 @@ def divisible_by_three(number):
 #   Call:    add(5, 10)
 #   Returns: 15
 
+def add(num1,num2):
+    return num1+ num2
 
 
 # Method name: multiply
