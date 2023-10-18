@@ -58,7 +58,8 @@ def say_goodbye():
 #   Call:    say_hello_to("Sam")
 #   Returns: "Hello, Sam!"
 
-
+def say_hello_to(name):
+    return f"Hello, {name}!"
 
 # Method name: say_goodbye_to
 # Purpose: says goodbye to the given name
