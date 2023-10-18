@@ -136,7 +136,8 @@ def add_number_strings(num1,num2):
 #   Returns: 50
 # Note: return value should be a number, not a string
 
-
+def multiply_number_strings(num1,num2):
+    return int(num1)* int(num2)
 
 # Method name: both_odd
 # Purpose: returns true if both numbers are odd
