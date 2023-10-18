@@ -78,7 +78,8 @@ def say_goodbye_to(name):
 #   Call:    square(5)
 #   Returns: 25
 
-
+def square(number):
+    return number*number
 
 # Method name: divisible_by_three
 # Purpose: returns true if the given number is divisible by three
