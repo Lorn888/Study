@@ -77,7 +77,10 @@ def deduct_10_if_possible(number):
 #   Returns: 125
 def top_up_to_100(number):
     # your code goes here (delete the pass below)
-    pass
+    if number < 100:
+        return 100
+    else:
+        return number
 
 
 # Congrats, you're done with this file. Move on to the next one.
