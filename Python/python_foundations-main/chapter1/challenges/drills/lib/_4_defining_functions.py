@@ -90,7 +90,11 @@ def square(number):
 #   Call:    divisible_by_three(10)
 #   Returns: False
 
-
+def divisible_by_three(number):
+    if number % 3 == 0:
+        return True
+    else:
+        return False
 
 # Method name: add
 # Purpose: adds two numbers together
