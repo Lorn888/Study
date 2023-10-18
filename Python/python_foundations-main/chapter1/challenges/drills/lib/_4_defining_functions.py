@@ -48,7 +48,8 @@ def say_hello():
 #   Call:    say_goodbye()
 #   Returns: "goodbye"
 
-
+def say_goodbye():
+    return "goodbye"
 
 # Method name: say_hello_to
 # Purpose: greets the given name
