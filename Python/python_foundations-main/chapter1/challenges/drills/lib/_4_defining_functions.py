@@ -125,7 +125,8 @@ def multiply(num1,num2):
 #   Returns: 15
 # Note: return value should be a number, not a string
 
-
+def add_number_strings(num1,num2):
+    return int(num1) + int(num2)
 
 # Method name: multiply_number_strings
 # Purpose: multiplies two numbers given as strings
