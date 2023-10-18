@@ -68,7 +68,8 @@ def say_hello_to(name):
 #   Call:    say_goodbye_to("Sam")
 #   Returns: "Goodbye, Sam!"
 
-
+def say_goodbye_to(name):
+    return f"Goodbye, {name}!"
 
 # Method name: square
 # Purpose: multiplies the given number by itself
