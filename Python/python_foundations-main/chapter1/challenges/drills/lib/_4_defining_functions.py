@@ -37,6 +37,8 @@ def add_ten(number):
 #   Call:    say_hello()
 #   Returns: "hello"
 
+def say_hello():
+    return "hello"
 
 
 # Method name: say_goodbye
