@@ -211,6 +211,10 @@ def one_even(num1, num2):
 #   Call:    truncate_string("Short")
 #   Returns: "Short"
 
-
+def truncate_string(string):
+    if len(string) > 10:
+        return string[0:10] + "..."
+    elif len(string) <= 10:
+        return string
 
 # Congrats, you're done with this file, go back to the Challenges README.
