@@ -192,6 +192,9 @@ def one_odd(num1, num2):
 #   Call:    one_even(5, 9)
 #   Returns: False
 
+def one_even(num1, num2):
+    return (num1 % 2 == 0) or (num2 % 2 == 0)
+
 
 
 # Method name: truncate_string
