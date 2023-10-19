@@ -164,7 +164,8 @@ def both_odd(num1, num2):
 #   Call:    both_even(5, 11)
 #   Returns: False
 
-
+def both_even(num1, num2):
+    return (num1 % 2 == 0) and (num2 % 2 == 0)
 
 # Method name: one_odd
 # Purpose: returns true if at least one number is odd
