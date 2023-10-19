@@ -178,7 +178,8 @@ def both_even(num1, num2):
 #   Call:    one_odd(4, 8)
 #   Returns: False
 
-
+def one_odd(num1, num2):
+    return (num1 % 2 != 0) or (num2 % 2 != 0)
 
 # Method name: one_even
 # Purpose: returns true if at least one number is even
