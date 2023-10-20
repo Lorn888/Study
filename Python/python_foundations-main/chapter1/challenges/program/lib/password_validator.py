@@ -17,9 +17,18 @@
 
 # == YOUR CODE ==
 
-def is_valid(password):
-    if (("!") in password or ("@") in password or ("$") in password or ("%") in password or ("&") in password) and (len(password)> 7):
+
+def are_special_characters_present(password):
+    if (("!") in password or ("@") in password or ("$") in password or ("%") in password or ("&") in password):
         return True
     else:
         return False
 
+def sufficient_length(password):
+    return len(password) > 7
+        
+def is_valid(password):
+    if are_special_characters_present(password) and sufficient_length(password):
+        return True
+    else:
+        return False
