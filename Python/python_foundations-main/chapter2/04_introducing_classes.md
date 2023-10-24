@@ -9,7 +9,7 @@ classes and how they work.
 <!-- OMITTED -->
 
 ## Learning Objectives
-
+ 
 In this section, you will learn to:
 
 * Explain what classes and instances are
