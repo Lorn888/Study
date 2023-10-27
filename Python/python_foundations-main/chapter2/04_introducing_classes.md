@@ -231,6 +231,7 @@ Classes can have multiple methods, including the `__init__()` method. Instance
 variables can be assigned when the class instance is created then used by the
 other class methods. Here's an example that brings those things together.
 
+
 ```Python
 >>> class Greeter():
 ...     def __init__(self, name):
