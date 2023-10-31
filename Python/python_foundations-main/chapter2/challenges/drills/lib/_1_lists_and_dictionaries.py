@@ -53,7 +53,8 @@ def last_element(list):
 #   Call:    first_two_elements([1, 2, 3])
 #   Returns: [1, 2]
 
-
+def first_two_elements(list):
+    return list[0:2]
 
 # Method name: first_three_elements
 # Purpose: returns the first three elements of the given list
