@@ -73,7 +73,8 @@ def first_three_elements(l):
 #   Call:    total([1, 2, 3])
 #   Returns: 6
 
-
+def total(l):
+    return sum(l)
 
 # Method name: lowest_number
 # Purpose: returns the lowest number in the given list
