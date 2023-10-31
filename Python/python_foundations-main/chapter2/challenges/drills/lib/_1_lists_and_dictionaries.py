@@ -139,6 +139,14 @@ def we_joined_the_beatles(l):
 #   Call:    remove_nones_from_list([1, None, 2, None, 3])
 #   Returns: [1, 2, 3]
 
+def remove_nones_from_list(l):
+    new_list = []
+    for item in l:
+        if item  != None:
+            new_list.append(item)
+    return new_list
+    
+        
 
 
 # Method name: double_list
