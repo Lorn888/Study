@@ -207,7 +207,8 @@ def new_band_member(d1):
 #   Call:    all_values({"a": 1, "b": 2, "c": 3})
 #   Returns: [1, 2, 3]
 
-
+def all_values(d):
+    return d.values()
 
 # Method name: all_keys
 # Purpose: returns a list of all the keys in the given dictionary
