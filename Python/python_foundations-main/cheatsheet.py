@@ -125,11 +125,16 @@
 #     l.append(e)
 #     return l
 
-l=[1, 2, 1, 3, 2, 3]
+# l=[1, 2, 1, 3, 2, 3]
 
-def unique_elements(l):
-    new_list=[]
-    for item in l:
-        if item not in new_list:
-            new_list.append(item)
-    return new_list
+# def unique_elements(l):
+#     new_list=[]
+#     for item in l:
+#         if item not in new_list:
+#             new_list.append(item)
+#     return new_list
+d1 = {"bass": "flea"}
+def new_band_member(d1):
+    d = {"vocalist": "miss piggy", "lead_guitar": "scooter"}
+    d.update(d1)
+    return d

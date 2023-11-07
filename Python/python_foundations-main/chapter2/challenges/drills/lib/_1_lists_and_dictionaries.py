@@ -195,8 +195,10 @@ def add_to_list(l,e):
 #   Call:    new_band_member({"bass": "flea"})
 #   Returns: {"vocalist": "miss piggy", "lead_guitar": "scooter", "bass": "flea"}
 
-
-
+def new_band_member(d1):
+    d = {"vocalist": "miss piggy", "lead_guitar": "scooter"}
+    d.update(d1)
+    return d
 
 # Method name: all_values
 # Purpose: returns a list of all the values in the given dictionary
