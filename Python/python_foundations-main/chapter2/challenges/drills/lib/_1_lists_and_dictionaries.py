@@ -227,6 +227,16 @@ def all_keys(d):
 #   Call:    remove_nones_from_dictionary({"a": 1, "b": None, "c": 3})
 #   Returns: {"a": 1, "c": 3}
 
+def remove_nones_from_dictionary(input_dict):
+    """
+    Removes all key-value pairs from the given dictionary where the value is None.
+
+    :param input_dict: The input dictionary.
+    :type input_dict: dict
+    :return: A new dictionary without key-value pairs where the value is None.
+    :rtype: dict
+    """
+    return {key: value for key, value in input_dict.items() if value is not None}
 
 
 

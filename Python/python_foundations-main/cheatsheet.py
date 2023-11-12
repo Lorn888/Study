@@ -133,8 +133,28 @@
 #         if item not in new_list:
 #             new_list.append(item)
 #     return new_list
-d1 = {"bass": "flea"}
-def new_band_member(d1):
-    d = {"vocalist": "miss piggy", "lead_guitar": "scooter"}
-    d.update(d1)
-    return d
+# d1 = {"bass": "flea"}
+# # def new_band_member(d1):
+# #     d = {"vocalist": "miss piggy", "lead_guitar": "scooter"}
+# #     d.update(d1)
+# #     return d
+d = {"a": 1, "b": None, "c": 3}
+
+def remove_nones_from_list(d):
+    keys_to_remove = []
+
+    for key, value in d.items():
+        if value is None:
+            keys_to_remove.append(key)
+    return keys_to_remove
+
+#    keys_to_remove = []
+
+#     for key, value in input_dict.items():
+#         if value is None:
+#             keys_to_remove.append(key)
+
+#     for key in keys_to_remove:
+#         del input_dict[key]
+
+#     return input_dict
