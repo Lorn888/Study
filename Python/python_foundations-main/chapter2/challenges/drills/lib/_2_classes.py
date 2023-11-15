@@ -53,7 +53,9 @@ class Greeter():
 #   > animal
 #   <Animal object at 0x7f8b8c0b8e80>
 
-
+class Animal():
+    def __init__(self):
+        pass
 
 # Class name: Vehicle
 # Purpose: a generic vehicle

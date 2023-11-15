@@ -159,10 +159,14 @@
 
 # #     return input_dict
 
-s1 = "lol"
-s2 = "dsd"
+# s1 = "lol"
+# s2 = "dsd"
 
-def touch_in(s1,s2):
-    d ={}
-    d[s1] = s2
-    return d
+# def touch_in(s1,s2):
+#     d ={}
+#     d[s1] = s2
+#     return d
+
+class Animal():
+    def __init__():
+        print("lol")
