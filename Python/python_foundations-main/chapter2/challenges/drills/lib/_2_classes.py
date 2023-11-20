@@ -104,7 +104,11 @@ class Cat():
 #   > dog.speak()
 #   'woof'
 
-
+class Dog():
+    def __init__(self):
+        pass
+    def speak(self):
+        return "woof"
 
 # Class name: StringFormatter
 # Purpose: transforms strings

@@ -167,6 +167,12 @@
 #     d[s1] = s2
 #     return d
 
-class Animal():
-    def __init__():
-        print("lol")
+# class Animal():
+#     def __init__():
+#         print("lol")
+
+class Dog():
+    def __init__(self):
+        pass
+    def speak(self):
+        return "woof"
