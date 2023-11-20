@@ -171,8 +171,16 @@
 #     def __init__():
 #         print("lol")
 
-class Dog():
-    def __init__(self):
-        pass
-    def speak(self):
-        return "woof"
+# class Dog():
+#     def __init__(self):
+#         pass
+#     def speak(self):
+#         return "woof"
+
+class StringFormatter():
+    def __init__(self, string):
+        self.string = string
+    def block_caps(self):
+        return self.string.upper()
+    def lower_case(self):
+        return self.string.lower()

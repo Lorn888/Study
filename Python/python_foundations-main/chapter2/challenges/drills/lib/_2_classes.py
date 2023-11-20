@@ -128,6 +128,16 @@ class Dog():
 #   > string_formatter.lower_case('HELLO')
 #   'hello'
 
+class StringFormatter:
+    def __init__(self):
+        pass
+
+    def block_caps(self, string):
+        return string.upper()
+
+    def lower_case(self, string):
+        return string.lower()
+
 
 
 # Class name: Calculator
